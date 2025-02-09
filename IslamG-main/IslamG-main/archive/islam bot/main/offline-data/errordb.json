@@ -1,0 +1,34 @@
+{
+    "version" : "0.02",
+
+    "errors" : {
+        "0001" : {
+            "id" : "0001",
+            "nickname" : "Unable to DM error",
+            "error_type" : "External - User Privacy",
+            "error_desc" : "This error usually only happens when the user does not have there DMs accessible by the bot",
+            "error_solutions" : "Enable DMs to servers in Privacy on discord."
+        },
+        "0002" : {
+            "id" : "0002",
+            "nickname" : "Quran Paramters Error",
+            "error_type" : "External - Commands",
+            "error_desc" : "This error happens when you try to get information from the Quran, and the page/verse/chapter etc is invalid",
+            "error_solutions" : "Enter the command with the proper info"
+        },
+        "0003" : {
+            "id" : "0003",
+            "nickname" : "API connection error",
+            "error_type" : "Internal - API",
+            "error_desc" : "This error is caused by a bad connection with our API sources, usually a issue on there side.",
+            "error_solutions" : "No fixes avaliable."
+        },
+        "0004" : {
+            "id" : "0004",
+            "nickname" : "Command disabled error",
+            "error_type" : "Internal - Commands",
+            "error_desc" : "This error is caused when the command has been disabled/under mainteance by the developer",
+            "error_solutions" : "No fixes avaliable."
+        }
+    }
+}

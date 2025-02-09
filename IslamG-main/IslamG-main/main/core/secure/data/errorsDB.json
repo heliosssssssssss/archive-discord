@@ -1,0 +1,10 @@
+{
+    "version" : "0.1",
+    "error_count" : 3,
+
+    "errors" : {
+        "0001" : {
+            "error_name": "Invalid YSEF"
+        }
+    }
+}
